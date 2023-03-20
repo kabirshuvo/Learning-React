@@ -6,9 +6,14 @@ import './App.css';
 
 function App() {
   return(
-    <div>
+    <div className="container">
       <h1> Learning React</h1>
       <Motizhil></Motizhil>
+      <Motizhil></Motizhil>
+      <Motizhil></Motizhil>
+      <h3>A Break Point</h3>
+      <BossName></BossName>
+      <BossName></BossName>
     </div>
   )
     
@@ -22,5 +27,14 @@ function Motizhil (){
     </div>
   )
 }
-App();
+
+function BossName (){
+  return(
+    <div>
+      <h1>Max Ether</h1>
+      <p>Profession: TechBoss</p>
+    </div>
+    
+  )
+}
 export default App;

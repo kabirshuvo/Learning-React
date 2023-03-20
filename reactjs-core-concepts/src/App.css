@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  grid-gap: 1rem;
+  background-color: rebeccapurple;
+  color: whitesmoke;
+  border-radius: 1rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
